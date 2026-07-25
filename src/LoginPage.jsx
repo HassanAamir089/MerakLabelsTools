@@ -3,7 +3,7 @@ import { OTPInput } from 'input-otp'
 import { supabase } from './supabaseClient'
 import { BarLoader } from 'react-spinners'
 import { toast } from 'sonner'
-import { formatMessage } from './Utility/Helpers'
+import { formatMessage } from './utility/Helpers'
 
 const OTP_LENGTH = 6
 const RESEND_COOLDOWN = 60
